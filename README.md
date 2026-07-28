@@ -24,3 +24,6 @@ MySQL Workbench, Excel
 ## Techniques Used
 Aggregate functions, GROUP BY/HAVING, CASE WHEN bucketing, 
 correlated subqueries, window functions (RANK, PERCENT_RANK), CTEs
+
+## Data Source
+[German Credit Risk dataset – Kaggle](https://www.kaggle.com/datasets/kabure/german-credit-data-with-risk)
