@@ -15,10 +15,12 @@ MySQL Workbench, Excel
 
 ## Key Findings
 - Loan taken for vacations/others has the highest bad risk rate of 41.67%.
-- Yes, bad-risk borrowers take loans for longer duration (24.9 months) compared to good-risk borrowers (19.2 months).
-- 
-- [Any other standout finding]
-
+- Bad-risk borrowers take loans for longer duration (24.9 months) compared to 
+  good-risk borrowers (19.2 months).
+- Bad-risk rate drops steadily as savings level increases — from 36% for 
+  borrowers with "little" savings down to 12.5% for those with "rich" savings.
+- Borrowers with free or rented housing show notably higher bad-risk rates 
+  (40.7% and 39.1%) than those who own their home (26.1%).
 ## Techniques Used
 Aggregate functions, GROUP BY/HAVING, CASE WHEN bucketing, 
 correlated subqueries, window functions (RANK, PERCENT_RANK), CTEs
